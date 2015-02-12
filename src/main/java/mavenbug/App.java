@@ -12,7 +12,7 @@ public class App
     {
     }
 
-    public void method( DerivedData data )
+    public void method( BaseData data )
     {
         System.out.println( "hello2 " + data.getClass().toString() );
     }
