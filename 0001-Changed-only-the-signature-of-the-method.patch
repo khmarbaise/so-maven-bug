@@ -1,0 +1,25 @@
+From 08efb6a144d77edf0e2a9946b013198dc8105e3b Mon Sep 17 00:00:00 2001
+From: Karl-Heinz Marbaise <info@soebes.de>
+Date: Thu, 12 Feb 2015 21:01:03 +0100
+Subject: [PATCH] - Changed only the signature of the method.
+
+---
+ src/main/java/mavenbug/App.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/java/mavenbug/App.java b/src/main/java/mavenbug/App.java
+index 45d8aad..9170fe8 100644
+--- a/src/main/java/mavenbug/App.java
++++ b/src/main/java/mavenbug/App.java
+@@ -12,7 +12,7 @@ public class App
+     {
+     }
+ 
+-    public void method( BaseData data )
++    public void method( DerivedData data )
+     {
+         System.out.println( "hello2 " + data.getClass().toString() );
+     }
+-- 
+1.8.5.2 (Apple Git-48)
+
